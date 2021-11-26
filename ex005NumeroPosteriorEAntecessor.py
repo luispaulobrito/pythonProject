@@ -1,4 +1,2 @@
 n = int(input('Digite um número: '))
-pos = n+1
-ant = n-1
-print('O número antecessor ao valor digitado é {} e o posterior é {}'.format(ant,pos))
+print('O número antecessor ao valor {} é {} e o sucessor é {}'.format(n,n-1,n+1))
