@@ -4,5 +4,8 @@ a2 = str(input('Segundo aluno: '))
 a3 = str(input('Terceiro aluno: '))
 a4 = str(input('Quarto aluno: '))
 lista = [a1,a2,a3,a4]
-embaralha = random.sample(lista,4)
-print('A sequência de apresentação de trabalhos será: {}'.format(embaralha))
+random.shuffle(lista)
+print('A sequência de apresentação de trabalhos será: {}'.format(lista))
+
+#embaralha = random.sample(lista,4)
+#print('A sequência de apresentação de trabalhos será: {}'.format(embaralha)) outra maneira que deu certo foi usando o sample
